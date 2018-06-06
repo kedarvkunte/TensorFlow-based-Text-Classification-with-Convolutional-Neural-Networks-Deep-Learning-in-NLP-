@@ -16,13 +16,11 @@ The general approach for using CNN for NLP tasks as follows. First, sentences ar
 ![Accuracy Vs. No. of Iterations](https://github.com/kedarvkunte/TensorFlow-based-Text-Classification-with-Convolutional-Neural-Networks-Deep-Learning-in-NLP-/blob/master/Accuracy%20Vs.%20No.%20of%20iterations.PNG)
 
 
+## References
+
+[1] Pang, Bo, Lillian Lee, and Shivakumar Vaithyanathan. "Thumbs up?: sentiment classification using machine learning techniques." Proceedings of the ACL-02 conference on Empirical methods in natural language processing-Volume 10. Association for Computational Linguistics, 2002
 
 
+Idea and the supporting code taken from the http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/
 
-
-
-
-
-
-Idea and the supporting code taken from the https://github.com/dennybritz/cnn-text-classification-tf
 
