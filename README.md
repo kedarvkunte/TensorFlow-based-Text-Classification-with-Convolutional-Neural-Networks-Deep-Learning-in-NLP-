@@ -9,9 +9,11 @@ The network built in this project has roughly following representation as mentio
 
 The general approach for using CNN for NLP tasks as follows. First, sentences are mapped into embedding vectors and then fed to the input in the matrix form. Convolutions are performed with different-sized filters such as 2 or 3 words at the time, then max pooling layer is implemented to decrease the special size, its output is then applied to fully connected layer with dropout regularization to obtain sentence classification. The activation function in this case can be either ReLu or tanh.
 
-![](https://github.com/kedarvkunte/TensorFlow-based-Text-Classification-with-Convolutional-Neural-Networks-Deep-Learning-in-NLP-/blob/master/CNN%20filter%20and%20Pooling%20architecture%20for%20Sentence%20Classification%20taken%20from%20the%20paper%20by%20Kim%20Yoon.png)
+![CNN filter and Pooling architecture for Sentence Classification](https://github.com/kedarvkunte/TensorFlow-based-Text-Classification-with-Convolutional-Neural-Networks-Deep-Learning-in-NLP-/blob/master/CNN%20filter%20and%20Pooling%20architecture%20for%20Sentence%20Classification%20taken%20from%20the%20paper%20by%20Kim%20Yoon.png)
 
+## Analysis
 
+![Accuracy Vs. No. of Iterations](https://github.com/kedarvkunte/TensorFlow-based-Text-Classification-with-Convolutional-Neural-Networks-Deep-Learning-in-NLP-/blob/master/Accuracy%20Vs.%20No.%20of%20iterations.PNG)
 
 
 
